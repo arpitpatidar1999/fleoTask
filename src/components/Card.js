@@ -54,17 +54,17 @@ export default function CardLayout(props) {
             <ListItemIcon>
               <CodeOutlinedIcon />
             </ListItemIcon>
-            <ListItemText inset primary={props.data.language} />
+            <ListItemText  primary={props.data.language} />
           </ListItem>
           <ListItem disablePadding>
             <ListItemIcon>
               <LocalDiningSharpIcon />
             </ListItemIcon>
-            <ListItemText inset primary={props.data.forks_count} />
+            <ListItemText  primary={props.data.forks_count} />
           </ListItem>
           <ListItem disablePadding>
             <Button onClick={handleOnclick}>
-              <ListItemText inset primary="show more" />
+              <ListItemText  inset primary="show more" />
             </Button>
           </ListItem>
         </List>
